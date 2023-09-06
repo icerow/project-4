@@ -4,30 +4,35 @@
     --hl2: white;
     --hl3: magenta;
 }
+
 * {
     padding: 0;
     margin: 2px;
     box-sizing: border-box;
 }
+
 body{
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh-1rem);
+    min-height: calc(100vh- 1rem);
     background-color: var(--bg);
     color: white;
     text-align: center;
     gap: 1rem;
 }
+
 .main {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.9rem;
     flex: 3 3 60vh;
 }
+
 nav {
-    flex: 1 1 1rem;
+    flex: .5 0 100px;
     margin-left: 1rem;
 }
+
 .button {
     background-color: var(--hl2);
     border: thick double var(--hl3);
@@ -36,29 +41,40 @@ nav {
     font-size: 2rem;
     margin: 3px 0rem;
 }
+
 .button:hover {
     background-color: var(--bg);
 }
+
 header {
     padding: 3rem 0px;
 }
+
 article {
     flex: 4 4;
 }
+
 footer {
     display: flex;
     justify-content: center;
 }
+
 img {
     padding: 1rem;
     border-radius: 26% 74% 48% 52% / 30% 30% 70% 70% ;
     background-color: var(--hl3);
     margin: 1rem 0rem;
 }
+
 a {
     text-decoration: none;
     color: var(--bg);
 }
+
 a:hover {
     color: var(--hl2);
+}
+
+p{
+    margin: 1rem 0;
 }
