@@ -25,7 +25,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 1.9rem;
-    flex: 3 3 60vh;
+    flex: 12 3 60vh;
 }
 
 nav {
