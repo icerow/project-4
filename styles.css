@@ -177,3 +177,12 @@ p{
       to {opacity: 1}
     }
 /*End of Slider css*/
+
+/*light mode*/
+.lightmode{
+    --bg: white;
+    --hl2: black;
+    background-color: white;
+    color: black;
+
+}

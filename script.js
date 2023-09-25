@@ -30,3 +30,17 @@ function showSlides(n) {
 }
 
 // slider end
+
+// dark mode toggle
+let body = document.body ;
+// const bodyClass = body.className
+
+// Event listener for toggle
+document.getElementById('toggler').addEventListener('click', darkModeToggle);
+
+
+// activates .lightmode css selectors
+function darkModeToggle() {
+  let body = document.body;
+  body.classList.toggle("lightmode");
+}
